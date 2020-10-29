@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0C0C15;
+    color: white;
+}
+
+hr{
+    border-top: 5px solid #F6B1BA;
+    width: 10%; 
+}
+
+/* many */
+
+.full-story{
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.faded-heading{
+    color: #1C2534;
+    text-align: center;
+    font-size: 6em;
+}
+.card{
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+.card-text{
+    color: #7B8DA5;
+}
+.card-img-top{
+    position: relative;
+    bottom: 50px;
+}
+
+/* title */
+
+
+#title{
+    padding-top: 20%;
+    background-image:
+    linear-gradient(to bottom, rgba(0,0,0,0), #0C0C15), 
+        url(https://cdn.pixabay.com/photo/2016/02/19/11/21/trees-1209660_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10%;
+}
+.big-heading{
+    font-size: 10em;
+    padding: 2%;
+    text-align: center;
+    letter-spacing: 1.5rem;
+}
+.small-heading{
+    font-size: 4em;
+    text-align: center;
+}
+
+/* story */
+#story{
+    background-color: #E31F57;
+    margin: 7% 10%;
+    padding: 5% 5%;
+}
+.story-heading{
+    font-size: 7em;
+}
+.story-para{
+    color: #F3A5B2;
+}
+.story-img{
+    position: absolute;
+    width: 90%;
+    bottom: -30%;
+    left: 11%;
+}
+#story .full-story{
+    margin-top: 5%;
+}
+
+/* featured */
+#featured{
+    padding: 5% 7%;
+    align-items: center;
+}
+.featcon{
+    background-color: #19212E;
+    padding: 0% 3%;
+}
+/* testimonials */
+#testimonials{
+    padding: 0% 15%;
+}
+.image-container{
+    margin: 10%;
+    background-color: #ED3654;
+    display: inline-block;
+}
+.testimonials-image{
+    object-fit: cover;
+    width: 400px;
+    height: 400px;
+    margin: -40px 40px 15px -40px;
+}
+.image-container .full-story{
+    text-align: center;
+}
+.testimonials-text{
+    margin-left: 10%;
+}
+.big-names{
+    font-size: 5em;
+}
+.testimonials-para{
+    color: #7B8DA5;
+}
+
+#contact{
+    padding: 3% 10%;
+    background-color: #19212E;
+    text-align: center;
+}
+
+#footer{
+    padding: 5% 0 1% 0;
+    text-align: center;
+}
+#footer .fab{
+    margin: 0 15px;
+}
+.footer-text{
+    margin: 1%;
+    font-weight: 900;
+}
+
+@media (max-width:1050px){
+
+    .card{
+        margin: 5%;
+    }
+    .card-img-top{
+        position: static;
+    }
+}
+@media (max-width:1720px) and (min-width:992px){
+    .story-img{
+        position: relative;
+        bottom: 0%;
+        left: 20%;
+    }
+}
+@media(max-width:991px){
+    .story-img{
+        position: relative;
+        bottom: 0%;
+        left: 5%;
+    }
+}
